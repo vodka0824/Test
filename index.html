@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信息頁面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .small-text {
+            font-size: 0.8em;
+            color: #999;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>點擊下方按鈕查看詳細內容</h1>
+        <p>此頁面為信息中轉頁，請點擊按鈕前往原始內容頁面。</p>
+        <a href="你的目標網址" class="btn" target="_blank" rel="noopener noreferrer">前往內容頁</a>
+        <p class="small-text">請注意：點擊後將跳轉到外部網站。</p>
+    </div>
+</body>
+</html>
