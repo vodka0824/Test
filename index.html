@@ -3,60 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>信息頁面</title>
+    <title>正在跳轉...</title>
+
+    <meta http-equiv="refresh" content="3; url=https://你的實際目標網址.com"> 
+
     <style>
+        /* 基本樣式，讓頁面看起來簡潔且居中 */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            min-height: 100vh; /* 確保內容垂直居中 */
             margin: 0;
-            background-color: #f0f2f5;
+            background-color: #f0f2f5; /* 輕微的背景色 */
+            color: #333; /* 預設文字顏色 */
         }
         .container {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff; /* 白色背景 */
+            padding: 40px;
+            border-radius: 10px; /* 圓角邊框 */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* 輕微陰影 */
             text-align: center;
-            max-width: 500px;
+            max-width: 600px; /* 最大寬度限制 */
+            width: 90%; /* 響應式寬度 */
         }
         h1 {
-            color: #333;
+            color: #007bff; /* 標題顏色 */
             margin-bottom: 20px;
+            font-size: 2em; /* 標題字體大小 */
         }
         p {
-            color: #666;
+            color: #555;
             line-height: 1.6;
             margin-bottom: 25px;
+            font-size: 1.1em; /* 段落字體大小 */
         }
-        .btn {
+        .manual-link {
             display: inline-block;
-            background-color: #007bff;
+            background-color: #28a745; /* 綠色按鈕 */
             color: white;
             padding: 12px 25px;
             border-radius: 5px;
-            text-decoration: none;
+            text-decoration: none; /* 移除下劃線 */
             font-weight: bold;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease; /* 平滑過渡效果 */
+            font-size: 1.1em;
         }
-        .btn:hover {
-            background-color: #0056b3;
+        .manual-link:hover {
+            background-color: #218838; /* 鼠標懸停時變深 */
         }
         .small-text {
-            font-size: 0.8em;
-            color: #999;
-            margin-top: 20px;
+            font-size: 0.9em;
+            color: #888;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>點擊下方按鈕查看詳細內容</h1>
-        <p>此頁面為信息中轉頁，請點擊按鈕前往原始內容頁面。</p>
-        <a href="http://api.eagletrader.net/et-home/website/2025/05/27/1_9a944878-d808-4b94-8154-876ac8fbb40e.html?d=DxsAHxlTTkIOAkVBHRBPDgMBWhkcABMMSQwaQANZDh0NFk1APyI4HwILJycbRlBaU1dAXF1bVFhWXk1BAh0MAQ%3D%3D" class="btn" target="_blank" rel="noopener noreferrer">前往內容頁</a>
-        <p class="small-text">請注意：點擊後將跳轉到外部網站。</p>
+        <h1>頁面加載中，即將自動跳轉...</h1>
+        <p>如果頁面沒有自動跳轉，請點擊下方按鈕：</p>
+        <a href="https://http://api.eagletrader.net/et-home/website/2025/05/27/1_9a944878-d808-4b94-8154-876ac8fbb40e.html?d=DxsAHxlTTkIOAkVBHRBPDgMBWhkcABMMSQwaQANZDh0NFk1APyI4HwILJycbRlBaU1dAXF1bVFhWXk1BAh0MAQ%3D%3D.com" class="manual-link" target="_blank" rel="noopener noreferrer">點擊這裡前往目標頁面</a>
+        <p class="small-text">此為中轉頁面，感謝您的耐心等待。</p>
     </div>
 </body>
 </html>
